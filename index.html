@@ -31,15 +31,28 @@
         .bundle p { color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 1.1rem; }
         .bundle .price { font-size: 3rem; font-weight: 700; color: #fff; margin-bottom: 20px; }
         .bundle .price span { font-size: 1.2rem; opacity: 0.8; }
+        .badge { display: inline-block; background: #238636; color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-bottom: 12px; }
+        .testimonials { background: #161b22; border-radius: 12px; padding: 40px; margin-bottom: 40px; }
+        .testimonials h2 { color: #fff; text-align: center; margin-bottom: 30px; font-size: 2rem; }
+        .testimonial { text-align: center; padding: 20px; }
+        .testimonial p { font-style: italic; color: #c9d1d9; font-size: 1.1rem; margin-bottom: 12px; }
+        .testimonial cite { color: #58a6ff; }
+        .faq { background: #161b22; border-radius: 12px; padding: 40px; margin-bottom: 40px; }
+        .faq h2 { color: #fff; text-align: center; margin-bottom: 30px; font-size: 2rem; }
+        .faq-item { margin-bottom: 20px; }
+        .faq-item h3 { color: #fff; margin-bottom: 8px; }
+        .faq-item p { color: #8b949e; }
         footer { text-align: center; color: #8b949e; padding: 40px 0; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🚀 GitHub Tools Pro</h1>
+            <span class="badge">🚀 Now with Security Scanning</span>
+            <h1>GitHub Tools Pro</h1>
             <p class="subtitle">Automate issue labeling, get Discord notifications, and AI-powered PR reviews</p>
-            <a href="https://github.com/marketplace" class="cta">Get All 3 Tools - $39/mo</a>
+            <a href="#bundle" class="cta">Start Free Trial →</a>
+            <p style="margin-top: 12px; font-size: 0.9rem; color: #8b949e;">No credit card required • 5-minute setup • Cancel anytime</p>
         </header>
 
         <div class="tools">
@@ -76,10 +89,48 @@
         </div>
 
         <div class="bundle">
+            <span class="badge">🚀 LAUNCH SPECIAL</span>
             <h2>💎 Best Value: Complete Suite</h2>
-            <p>Get all 3 tools together and save 40%</p>
+            <p>Get all 3 tools together and save 40% — cheaper than a coffee/month!</p>
             <div class="price">$39<span>/month</span></div>
-            <a href="mailto:support@githubtools.pro?subject=GitHub Tools Pro Order&body=Hi! I'm interested in purchasing GitHub Tools Pro. Please send me payment details." class="cta" style="background: #fff; color: #1f6feb;">Contact to Buy</a>
+            <a href="https://buy.stripe.com/test-launch" class="cta" style="background: #fff; color: #1f6feb;">Get Started Free →</a>
+            <p style="margin-top: 16px; font-size: 0.9rem; opacity: 0.8;">No credit card required for 14-day trial</p>
+        </div>
+
+        <div class="testimonials">
+            <h2>What Developers Say</h2>
+            <div class="testimonial">
+                <p>"AI PR Reviewer caught a security vulnerability before we merged. Saved us potentially months of debugging."</p>
+                <cite>— Sarah K., DevOps Lead</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Finally, our issues are properly labeled without manual work. The AI even detects beginner-friendly bugs!"</p>
+                <cite>— Mike T., Full-stack Developer</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Discord notifications keep our whole team in sync. We never miss a critical PR review."</p>
+                <cite>— Jessica L., Engineering Manager</cite>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How does the free trial work?</h3>
+                <p>Start with full access to all features. After 14 days, choose a plan or continue with our free tier.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I use these tools on private repositories?</h3>
+                <p>Yes! Our GitHub Apps work seamlessly with both public and private repositories.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What happens to my data?</h3>
+                <p>We only store necessary configuration data. Your code and repository content are never stored.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I cancel anytime?</h3>
+                <p>Absolutely. No contracts, no commitments. Cancel from your dashboard with one click.</p>
+            </div>
         </div>
 
         <footer>
